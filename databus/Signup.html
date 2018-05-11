@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="p">
+    <title>Sign up at Databus.com</title>
+
+
+</head>
+<body>
+<div class="topnav">
+    <a class="normal" href="index.php">Databus.com</a>
+    <a class="right" href="login.html">Login</a>
+    <a class="right" href="Signup.html" style="background-color: #2196F3; color: white;">Signup</a>
+
+    <form action='search.php' method='post'>
+        <input type="search" name='search' placeholder="Search space now...">
+    </form>
+</div>
+
+<div class="jumbotron" style="margin-bottom: 0px;background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); border: none;height: 770px">
+    <div class="container text-center" style=" background: transparent">
+    <h2 style="color: white">Join Us Now</h2>
+    </div>
+
+
+<div style="height: 50px;"></div>
+
+<div class="container-fluid" >
+    <div class="row">
+        <div class="col-lg-6" style="padding: 30px 30px;">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Regular Sign up <small>It's free!</small></h3>
+                </div>
+                <div class="panel-body">
+                    <form action="new_regular.php" role="form">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control input-sm" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="last" class="form-control input-sm" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control input-sm" placeholder="Email Address">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="password" name="password" class="form-control input-sm" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" name="phone" class="form-control input-sm" placeholder="Your Phone Number">
+                        </div>
+
+                        <input type="submit" value="Signup" class="btn btn-primary btn-block">
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-6" style="padding: 30px 30px;">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Vendor Sign up <small>You can make money!</small></h3>
+                </div>
+                <div class="panel-body">
+                    <form action="new_user.php" role="form">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control input-sm" placeholder="First Name">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="text" name="last" class="form-control input-sm" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="email" class="form-control input-sm" placeholder="Email Address">
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="password" name="password" class="form-control input-sm" placeholder="Password">
+                                </div>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="password" name="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" name="phone" class="form-control input-sm" placeholder="Your Phone Number">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="company" class="form-control input-sm" placeholder="Your Company Name">
+                        </div>
+
+                        <input type="submit" value="Signup" class="btn btn-danger btn-block">
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<a  href="login.html" class="btn btn-error" role="button" style="margin: auto; display: block; background-color: antiquewhite; width: 50%" >Already has an account?</a>
+<br>
+</div>
+</body>
+</html>
