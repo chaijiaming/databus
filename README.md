@@ -14,7 +14,7 @@ Regulars can rent a space/room for meetings.
 ## space description
 ![alt text](/pics/space.png "space")
 ## space information
-![alt text](/pics/location/host.png "lo/ho")
+![alt text](/pics/host.png "lo/ho")
 ## search 
 ![alt text](/pics/search.png "search")
 ## check avaliability
